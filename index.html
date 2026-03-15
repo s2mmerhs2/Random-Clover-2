@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Lucky Fortune</title>
+</head>
+<body>
+    <div id="app">
+        <div class="stars"></div>
+        <div class="decorations">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        
+        <div class="lucky-card">
+            <h2 class="title">오늘의 운세를 점쳐 보세요!</h2>
+            <div id="draw-button" class="draw-area">
+                <span class="clover-emoji">🍀</span>
+                <span class="click-me">CLICK!</span>
+            </div>
+            <div id="lucky-message" class="message-display">운세 확인 버튼을 눌러보세요!</div>
+        </div>
+
+        <div id="particle-container"></div>
+    </div>
+    
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
