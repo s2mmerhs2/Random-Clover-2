@@ -1,6 +1,3 @@
-// CSS 연결 (상대 경로 확인)
-import './style.css';
-
 const drawBtn = document.getElementById('draw-button');
 const messageDisplay = document.getElementById('lucky-message');
 const container = document.getElementById('particle-container');
